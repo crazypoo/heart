@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class CAEmitterLayer;
+
 @interface PooViewController : UIViewController
 
 @end

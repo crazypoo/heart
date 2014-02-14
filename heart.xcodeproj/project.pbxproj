@@ -21,6 +21,8 @@
 		CC3AD10C18ADB3470002470D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3AD0EE18ADB3450002470D /* UIKit.framework */; };
 		CC3AD11418ADB3470002470D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC3AD11218ADB3470002470D /* InfoPlist.strings */; };
 		CC3AD11618ADB3480002470D /* heartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3AD11518ADB3480002470D /* heartTests.m */; };
+		CC3AD12018ADB3540002470D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3AD11F18ADB3540002470D /* QuartzCore.framework */; };
+		CC3AD12418ADB69A0002470D /* PooHeart.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3AD12318ADB69A0002470D /* PooHeart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		CC3AD11118ADB3470002470D /* heartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "heartTests-Info.plist"; sourceTree = "<group>"; };
 		CC3AD11318ADB3470002470D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC3AD11518ADB3480002470D /* heartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = heartTests.m; sourceTree = "<group>"; };
+		CC3AD11F18ADB3540002470D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CC3AD12318ADB69A0002470D /* PooHeart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PooHeart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3AD12018ADB3540002470D /* QuartzCore.framework in Frameworks */,
 				CC3AD0ED18ADB3450002470D /* CoreGraphics.framework in Frameworks */,
 				CC3AD0EF18ADB3450002470D /* UIKit.framework in Frameworks */,
 				CC3AD0EB18ADB3450002470D /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		CC3AD0E918ADB3450002470D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC3AD11F18ADB3540002470D /* QuartzCore.framework */,
 				CC3AD0EA18ADB3450002470D /* Foundation.framework */,
 				CC3AD0EC18ADB3450002470D /* CoreGraphics.framework */,
 				CC3AD0EE18ADB3450002470D /* UIKit.framework */,
@@ -112,6 +118,7 @@
 		CC3AD0F018ADB3450002470D /* heart */ = {
 			isa = PBXGroup;
 			children = (
+				CC3AD12318ADB69A0002470D /* PooHeart.png */,
 				CC3AD0F918ADB3460002470D /* PooAppDelegate.h */,
 				CC3AD0FA18ADB3460002470D /* PooAppDelegate.m */,
 				CC3AD0FC18ADB3460002470D /* Main.storyboard */,
@@ -232,6 +239,7 @@
 				CC3AD10318ADB3470002470D /* Images.xcassets in Resources */,
 				CC3AD0F518ADB3460002470D /* InfoPlist.strings in Resources */,
 				CC3AD0FE18ADB3460002470D /* Main.storyboard in Resources */,
+				CC3AD12418ADB69A0002470D /* PooHeart.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
